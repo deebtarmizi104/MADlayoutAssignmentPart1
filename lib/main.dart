@@ -9,7 +9,7 @@ class MyApp extends StatefulWidget {
 }
 
 class ItemState extends State<MyApp> {
-  final List<Item> deviceItem = [
+  List<Item> deviceItem = [
     Item(
       name: 'Plug Ammar',
       isOn: false,
